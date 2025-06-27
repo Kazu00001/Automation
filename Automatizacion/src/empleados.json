@@ -1,0 +1,24 @@
+[
+    {
+        "datosDelEmpleado": {
+            "nombre": "María Stephanie Rodríguez Rosas",
+            "curp": "RORR981222MMCDST03",
+            "ocupacion": "911 - PERSONAL DE LIMPIEZA",
+            "puesto": "Auxiliar de Limpieza"
+        },
+        "DatosEmpresa": {
+            "nombreEmpresa": "DEREMATE.COM DE MÉXICO, S. de R.L. de C.V.",
+            "SHCP": "DCM-991109-KR2"
+        },
+        "DatosDelProgramaDeCapacitacion": {
+            "nombreDelPrograma": "NOM-052-SEMARNAT-2005 CARACTERISTICAS, PROCEDIMIENTO DE IDENTIFICACION, CLASIFICACION Y LISTADOS DE LOS RESIDUOS PELIGROSOS",
+            "duracion": "8 horas",
+            "perido": {
+                "fechaInicio": "2023-01-15",
+                "fechaFin": "2023-12-15"
+            },
+            "areaTematicaDelCurso": "6400 SEGURIDAD E HIGIENE EN EL TRABAJO",
+            "nombreDelAgenteCapacitador": "LUIS ALBERTO ANGUIANO SEVILLA, Regristro STPS AUSL870106-JY4-0005"
+        }
+    }
+]
