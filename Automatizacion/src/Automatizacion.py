@@ -10,8 +10,9 @@ from docx.shared import Pt
 
 
 
-# Readme
-df = pl.read_excel('../data/Formato_Capacitacion.xlsx')
+# Please read the readme
+#if u have other document you need change the name in this line.
+df = pl.read_excel('../data/Formato_Capacitacion.xlsx') #Here
 
 empleados = []
 for row in df.to_dicts():
@@ -55,15 +56,11 @@ def cleaner_string(string):
 with open('empleados.json', 'r', encoding='utf-8') as f:
     empleados = json.load(f)
 
-print("Empleados cargados:", len(empleados))
 listEmpleados = len(empleados)
-print(type(listEmpleados))
 doc = Document('Plantilla_.docx')
 
-print(range(1, listEmpleados + 1))
 for empleado in range(1, listEmpleados + 1):
     print(f"Procesando empleado {empleado} de {listEmpleados}")
-    print( empleados[empleado-1].keys())
 
     #Declarate var
     #data of employe
@@ -84,7 +81,6 @@ for empleado in range(1, listEmpleados + 1):
     fecha_inicio = cleaner_string(fecha_inicio_dirty)
     fecha_fin = cleaner_string(fecha_fin_dirty)
 
-    print(fecha_inicio,fecha_fin)
     #* Here create the automiation for the frist table
 
 
