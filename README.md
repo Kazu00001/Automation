@@ -1,10 +1,14 @@
 # Automation
 1-. Descargar python https://www.python.org/downloads/
+
 2-. Descargar un complilador, yo recomendaria pycharm https://www.python.org/downloads/
+
 3-. Descargar repositorio atravez de un zip en repositorio en el apartado llamado **<Code>**, en la parte inferior 
 selecionar descargar zip.
+
 4-. Abrir el repositorio con el complilardor
-3-. Descargar Librerias en la secion de importacion del archivo Automation en las primeras lineas
+
+5-. Descargar Librerias en la secion de importacion del archivo Automation en las primeras lineas
 que comienzan con un import presionar las teclas (**Presiona Alt + Enter** Para windows) y (**Command + .**, Para dispositivos con ios)
 / otra manera es ejecutando el siguiente comando en terminal verificar que pip este instalado primero: **pip --version** y despues: **pip install polars python-docx**
 
